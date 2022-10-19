@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Index Page</title>
+</head>
+<body>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/cosmo/bootstrap.min.css" />
+   <br><br>
+   <center>
+   <h1>Welcome to Xenonstack Home Page</h1>
+   <form th:action="@{/login}" method="post"><br>
+        <input type="submit" class="btn btn-dark" value="Login" />
+    </form>
+    <form th:action="@{/signup}" method="post"><br>
+        <input type="submit" class="btn btn-dark" value="Sign Up" />
+    </form>
+    <form th:action="@{/contact}" method="post"><br>
+        <input type="submit" class="btn btn-dark" value="Contact Us" />
+    </form>
+    </center>
+</body>
+</html>

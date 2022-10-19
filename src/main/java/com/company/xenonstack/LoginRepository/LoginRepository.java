@@ -17,7 +17,9 @@ public class LoginRepository{
 
 	public User findUser(User user) {
 		User temp = em.find(User.class, user.getUsername());
-		if(temp.getUsername() == user.getUsername() && temp.getPassword() == user.getPassword()) return temp;
+		if(temp != null && temp.getUsername().equals(user.getUsername()) && temp.getPassword().equals(user.getPassword())) {
+			return temp;
+		}
 		return null;
 	}
 	

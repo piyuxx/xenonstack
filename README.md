@@ -21,5 +21,6 @@
 <h2>Working</h2>
 First index page will open when we hit the url http://localhost:8082/ <br>
 User can choose to login, sign up or check contact us page <br>
-If user needs to create new account, then user can go to sign up page, enter new username and password and click on sign up, user will be redirected to login page <br>
-user can login once user has account, after login welcome page will come, user can choose to logout which will open index page again
+If user needs to create new account, then user can go to sign up page, enter new username and password and click on sign up button, user will be redirected to login page <br>
+User can login once user has account, after login welcome page will come, user can choose to logout which will open index page again <br>
+While logging in, if user enters wrong username or password, user will again given the option to enter the details again
